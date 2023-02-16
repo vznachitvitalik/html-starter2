@@ -58,3 +58,21 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+
+.card {
+  text-align: center;
+  bottom right radius: 40px;
+  bottom left radius: 40px;
+}
+
+.buttons {
+  height: 40 px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  flex-shrink: 1;
+  width: 100%;
+  gap: 10px;
+}
+
