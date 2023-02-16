@@ -16,6 +16,11 @@ body {
   border-radius: 21px; 
 }
 
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+
 .header {
   color: #fff ;
   padding: 22px 10px 145px;
@@ -33,4 +38,23 @@ body {
   font size: 20px;
   line height: 24px;
   line height: 100%;
+}
+
+.user {
+  text-align: center;
+  bottom right radius: 40px;
+  bottom left radius: 40px;
+}
+
+.user-avatar {
+  margin-top: -86px;
+  border-radius: 50%;
+  object-fit: cover; /*не растягивается*/
+  border: 3px solid D6C7A1; 
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
